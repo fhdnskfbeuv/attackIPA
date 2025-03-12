@@ -1,0 +1,2 @@
+# Just an example to jailbreak kolors 1.0. Prodigy and Adamw are usually better than pgd for optimization. More iteration steps is preferred.
+python generateAdv.py --budget 0.01 --steps 10000 --stepsize 1.0 --bound lpips --fn grid --opt prodigy --dist cos --model openai/clip-vit-large-patch14-336 --targetP ./muscle/ --imgDir ./wikiart/ --saveDir ./adv/ --gpu 0
